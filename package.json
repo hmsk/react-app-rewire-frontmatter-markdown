@@ -1,0 +1,33 @@
+{
+  "name": "react-app-rewire-frontmatter-markdown",
+  "version": "0.0.1",
+  "description": "frontmatter-markdown-loader config for react-app-rewired",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hmsk/react-app-rewire-frontmatter-markdown.git"
+  },
+  "keywords": [
+    "react-app-rewired",
+    "create-react-app",
+    "webpack",
+    "frontmatter",
+    "markdown",
+    "react"
+  ],
+  "author": "Kengo Hamasaki <k.hamasaki@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmsk/react-app-rewire-frontmatter-markdown/issues"
+  },
+  "homepage": "https://github.com/hmsk/react-app-rewire-frontmatter-markdown#readme",
+  "dependencies": {
+    "frontmatter-markdown-loader": "2.3.0-0"
+  },
+  "peerDependencies": {
+    "react-app-rewired": "^2.1.3"
+  }
+}
