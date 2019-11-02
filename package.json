@@ -4,7 +4,7 @@
   "description": "frontmatter-markdown-loader config for react-app-rewired",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
