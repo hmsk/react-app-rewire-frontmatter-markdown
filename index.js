@@ -25,13 +25,11 @@ const addLoaderBeforeFileLoader = (currentRules, newRule) => {
   rules.splice(index, 0, newRule);
 };
 
-function rewireFrontMatterMarkdown(config, mode = ['react-component']) {
+function rewireFrontMatterMarkdown(config, options = { mode: ['react-component'] }) {
   const frontmatterMarkdownLoaderRule = {
     test: /\.md$/,
     loader: 'frontmatter-markdown-loader',
-    options: {
-      mode
-    }
+    options
   };
 
   addLoaderBeforeFileLoader(config.module.rules, frontmatterMarkdownLoaderRule);
