@@ -15,7 +15,7 @@ yarn add -D react-app-rewire-frontmatter-markdown
 In `config-overrides.js` for [react-app-rewired](https://github.com/timarney/react-app-rewired):
 
 ```js
-const rewireFrontmatterMarkdown = require("react-app-rewire-frontmatter-markdown");
+const rewireFrontmatterMarkdown = require('react-app-rewire-frontmatter-markdown');
 
 module.exports = function override(config, env) {
   rewireFrontmatterMarkdown(config); // <-- THIS
@@ -27,18 +27,10 @@ This inserts the loader config for `/\.md$/`.
 
 ### Options
 
-Default option for `frontmatter-markdown-loader` is
-
-```json
-{
-  mode: ['react']
-}
-```
-
-You can give your own option through the second argument.
+You can give your own options through the second argument.
 
 ```js
-const rewireFrontmatterMarkdown = require("react-app-rewire-frontmatter-markdown");
+const rewireFrontmatterMarkdown = require('react-app-rewire-frontmatter-markdown');
 
 module.exports = function override(config, env) {
   // THIS
@@ -59,6 +51,14 @@ module.exports = function override(config, env) {
 
 Full documentation for frontmatter-markdown-loader is in: https://hmsk.github.io/frontmatter-markdown-loader/options
 
-# License
+Default option for `frontmatter-markdown-loader` is
+
+```js
+{
+  mode: ['react']
+}
+```
+
+## License
 
 MIT License, Copyright 2019-present Kengo Hamasaki
