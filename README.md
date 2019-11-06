@@ -55,7 +55,7 @@ Default option for `frontmatter-markdown-loader` is
 
 ```js
 {
-  mode: ['react']
+  mode: ['react-component']
 }
 ```
 
