@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/hmsk/react-app-rewire-frontmatter-markdown#readme",
   "dependencies": {
-    "frontmatter-markdown-loader": "^3.6.2-0"
+    "frontmatter-markdown-loader": "^3.6.2"
   },
   "peerDependencies": {
     "react-app-rewired": "^2.1.3"
