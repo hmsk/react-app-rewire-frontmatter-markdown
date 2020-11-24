@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-frontmatter-markdown",
-  "version": "1.4.0-0",
+  "version": "1.4.0",
   "description": "frontmatter-markdown-loader config for react-app-rewired",
   "main": "index.js",
   "scripts": {
